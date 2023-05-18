@@ -63,8 +63,8 @@ struct push_back_state_and_time2
 			for (int i = 0; i < N; i++)
 			{
 				float order = static_cast<float>(2 * i - N + 1);
-				q1[i] += cmpx(x[0], (-1.f) * x[1]) * std::exp(cmpx(0.f, delta * t * static_cast<float>(order)));
-				q2[i] += cmpx(x[3], (-1.f) * x[4]) * std::exp(cmpx(0.f, delta * t * static_cast<float>(order)));
+				q1[i] += cmpx(x[0], (-1.f) * x[1]) * 0.5f * std::exp(cmpx(0.f, delta * t * static_cast<float>(order)));
+				q2[i] += cmpx(x[3], (-1.f) * x[4]) * 0.5f * std::exp(cmpx(0.f, delta * t * static_cast<float>(order)));
 			}
 		}
 	}
