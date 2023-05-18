@@ -5,12 +5,21 @@
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
+<<<<<<< HEAD
     <ProjectConfiguration Include="PYTHON310|Win32">
       <Configuration>PYTHON310</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="PYTHON310|x64">
       <Configuration>PYTHON310</Configuration>
+=======
+    <ProjectConfiguration Include="PY310|Win32">
+      <Configuration>PY310</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="PY310|x64">
+      <Configuration>PY310</Configuration>
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
       <Platform>x64</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Win32">
@@ -47,7 +56,11 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
+<<<<<<< HEAD
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PYTHON310|Win32'" Label="Configuration">
+=======
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY310|Win32'" Label="Configuration">
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Intel C++ Compiler 2023</PlatformToolset>
@@ -71,7 +84,11 @@
     <UseInteloneTBB>true</UseInteloneTBB>
     <UseInteloneMKL>No</UseInteloneMKL>
   </PropertyGroup>
+<<<<<<< HEAD
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PYTHON310|x64'" Label="Configuration">
+=======
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY310|x64'" Label="Configuration">
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Intel C++ Compiler 2023</PlatformToolset>
@@ -91,7 +108,11 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+<<<<<<< HEAD
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PYTHON310|Win32'" Label="PropertySheets">
+=======
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PY310|Win32'" Label="PropertySheets">
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -100,7 +121,11 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+<<<<<<< HEAD
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PYTHON310|x64'" Label="PropertySheets">
+=======
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PY310|x64'" Label="PropertySheets">
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -110,7 +135,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetExt>.pyd</TargetExt>
   </PropertyGroup>
+<<<<<<< HEAD
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PYTHON310|x64'">
+=======
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY310|x64'">
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
     <TargetExt>.pyd</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -141,7 +170,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+<<<<<<< HEAD
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PYTHON310|Win32'">
+=======
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PY310|Win32'">
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -201,7 +234,11 @@
       <AdditionalDependencies>python3.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
+<<<<<<< HEAD
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PYTHON310|x64'">
+=======
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PY310|x64'">
+>>>>>>> A commit "The complete working library" was restored. Changes were again made to it. It was done to avoid an unknown error
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
