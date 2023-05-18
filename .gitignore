@@ -5,6 +5,4 @@ x64
 *.log
 *.dat
 .vs
-./test/__pycache__
-test/*.dll
-test/*.png
+test
